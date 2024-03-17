@@ -1,3 +1,36 @@
 body {
-  background-color: rgb(129, 9, 241);
+  background-color: rgba(124, 8, 233, 0.8);
+}
+.container {
+  margin: 120px auto;
+  max-width: 800px;
+  text-align: center;
+}
+
+form {
+  margin-bottom: 50px;
+}
+h1 {
+  margin-bottom: 60px;
+  color: rgb(84, 239, 76);
+}
+.text-poem {
+  margin-bottom: 150px;
+  font-size: 25px;
+  line-height: 20px;
+}
+.instructions {
+  padding: 15px;
+  border: 1px solid rgba(39, 33, 66, 0.5);
+  width: 50%;
+  font-size: 20px;
+  border-radius: 30px;
+}
+.button {
+  margin-left: 10px;
+  background: rgb(84, 239, 76);
+  border: none;
+  border-radius: 30px;
+  padding: 15px;
+  font-size: 20px;
 }
