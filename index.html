@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>Women written poems searcher</title>
   </head>
@@ -12,7 +13,7 @@
         <h1>Welcome to the poem searcher written by woman</h1>
       </header>
       <main>
-        <form>
+        <form id="poem-form">
           <input
             type="text"
             placeholder="Enter the topic of the poem written by women"
@@ -23,7 +24,7 @@
           />
           <input type="submit" class="button" />
         </form>
-        <div class="text-poem">The poem will go here</div>
+        <div class="text-poem" id="poem-text"></div>
       </main>
       <footer>
         This AI project was coded by
