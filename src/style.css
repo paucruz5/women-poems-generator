@@ -2,7 +2,7 @@ body {
   background-color: rgba(124, 8, 233, 0.8);
 }
 .container {
-  margin: 120px auto;
+  margin: 50px auto;
   max-width: 800px;
   text-align: center;
 }
@@ -12,12 +12,15 @@ form {
 }
 h1 {
   margin-bottom: 60px;
-  color: rgb(84, 239, 76);
+  color: rgb(0, 0, 0);
+  text-align: center;
 }
-.text-poem {
-  margin-bottom: 150px;
+.textPoem {
+  margin-left: 130px;
+  margin-bottom: 80px;
   font-size: 25px;
-  line-height: 20px;
+  line-height: 30px;
+  text-align: left;
 }
 .instructions {
   padding: 15px;
@@ -33,4 +36,12 @@ h1 {
   border-radius: 30px;
   padding: 15px;
   font-size: 20px;
+}
+
+.textPoem i {
+  color: rgb(84, 239, 76);
+}
+
+.textPoem strong {
+  color: rgb(84, 239, 76);
 }

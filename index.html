@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>Women written poems searcher</title>
@@ -10,26 +11,30 @@
   <body>
     <div class="container">
       <header>
-        <h1>Welcome to the poem searcher written by woman</h1>
+        <h1>
+          WELCOME TO THE POEM SEARCHER
+          <br />
+          WRITTEN BY WOMEN
+        </h1>
       </header>
       <main>
         <form id="poem-form">
           <input
             type="text"
-            placeholder="Enter the topic of the poem written by women"
+            placeholder="Enter the topic of the poem witten by women"
             autofocus
             required
             autocomplete="off"
             class="instructions"
+            id="user-instructios"
           />
           <input type="submit" class="button" />
         </form>
-        <div class="text-poem" id="poem-text"></div>
+        <div class="textPoem" id="poem-text"></div>
       </main>
       <footer>
         This AI project was coded by
-        <a href="https://github.com/paucruz5" target="_blank">Pau Cruz</a> and
-        is
+        <a href="https://github.com/paucruz5" target="_blank">Pau Cruz</a>, is
         <a
           href="https://github.com/paucruz5/women-poems-generator"
           target="_blank"
