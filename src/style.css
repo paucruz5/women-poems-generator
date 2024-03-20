@@ -22,6 +22,7 @@ h1 {
   margin-bottom: 60px;
   color: rgb(0, 0, 0);
   text-align: center;
+  font-size: 50px;
 }
 .textPoem {
   margin-top: 35px;
@@ -71,4 +72,14 @@ a {
   to {
     visibility: hidden;
   }
+}
+.courgette-regular {
+  font-family: "Courgette", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.akaya-kanadaka-regular {
+  font-family: "Akaya Kanadaka", system-ui;
+  font-weight: 600;
+  font-style: normal;
 }
